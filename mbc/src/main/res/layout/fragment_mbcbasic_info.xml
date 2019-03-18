@@ -1,0 +1,230 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="16dp"
+    tools:context="com.bvifsc.mbc.fragments.MBCPrincipalViewFragment">
+
+    <LinearLayout
+        android:id="@+id/mbc_number_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/mbc_number_header"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/mbcNumber"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/mbc_number"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="MBC1111111USA"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ra_name_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@id/mbc_number_layout">
+        <TextView
+            android:id="@+id/ra_name_header"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/raName"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/ra_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/user_name_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@id/ra_name_layout">
+        <TextView
+            android:id="@+id/user_name_header"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/raUser"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/mbc_country_operation_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@id/user_name_layout">
+        <TextView
+            android:id="@+id/mbc_country_header"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/country"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/mbc_country_of_operation"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/mbc_business_purpose_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@id/mbc_country_operation_layout">
+        <TextView
+            android:id="@+id/mbc_business_purpose_header"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/businessPurpose"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/mbc_business_purpose"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/mbc_doing_business_as_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@id/mbc_business_purpose_layout">
+        <TextView
+            android:id="@+id/mbc_doing_business_as_header"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/doingBusinessAs"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/mbc_doing_business_as"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mbc_date_of_incorporation_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@id/mbc_doing_business_as_layout">
+        <TextView
+            android:id="@+id/mbc_date_of_incorporation_header"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/dateOfIncorporation"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/mbc_date_of_incorporation"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/mbc_principal_first_name_Layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@id/mbc_date_of_incorporation_layout">
+        <TextView
+            android:id="@+id/mbc_principal_first_name_header"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/principalFirstName"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/mbc_principal_first_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mbc_principal_nationality_Layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@id/mbc_principal_first_name_Layout">
+        <TextView
+            android:id="@+id/mbc_principal_nationality_header"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/principalNationality"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/mbc_principal_nationality"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mbc_shares_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@id/mbc_principal_nationality_Layout">
+        <TextView
+            android:id="@+id/mbc_shares_header"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/mbcShares"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/mbc_shares"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,22 @@
+<network-security-config>
+    <debug-overrides>
+        <trust-anchors>
+            <!-- Trust preinstalled CAs -->
+            <certificates src="system" />
+            <!-- Additionally trust user added CAs -->
+            <certificates src="user" />
+        </trust-anchors>
+
+    </debug-overrides>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <domain includeSubdomains="true">182.74.133.91</domain>
+        <domain includeSubdomains="true">182.74.133.92</domain>
+
+
+    </domain-config>
+    <base-config>
+        cleartextTrafficPermitted="true"
+    </base-config>
+
+</network-security-config>

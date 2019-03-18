@@ -1,0 +1,89 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.bvifsc.mbc.fragments.AnualReturnMBCFragment">
+
+    <TextView
+        android:id="@+id/mbc_annual_return_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="ANNUAL RETURN"
+        app:layout_constraintBottom_toTopOf="@+id/mbc_basic_info_fragment"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <fragment
+        android:id="@+id/mbc_basic_info_fragment"
+        android:name="com.bvifsc.mbc.fragments.MBCPrincipalViewFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/mbc_annual_return_header" />
+
+    <Spinner
+        android:id="@+id/filing_years_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/mbc_basic_info_fragment">
+    </Spinner>
+    <LinearLayout
+        android:id="@+id/annual_return_filed_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/filing_years_spinner"
+        >
+        <TextView
+            android:id="@+id/annual_return_filed_header"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="Annual Return"/>
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:id="@+id/annual_return_radio_group"
+
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/filing_years_spinner">
+        <RadioButton
+            android:id="@+id/annul_return_filed_yes"
+            android:text="YES"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/annual_return_files_no"
+            android:text="NO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+    </LinearLayout>
+    <CheckBox
+        android:id="@+id/confirm_meets_mbc_act"
+        android:text="@string/mbcAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/annual_return_filed_layout"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/principal_mbc_footer"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_meets_mbc_act"
+        >
+
+        <include layout="@layout/ra_footer_layout" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

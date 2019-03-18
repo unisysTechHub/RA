@@ -1,0 +1,88 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<android.support.constraint.ConstraintLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.bvifsc.mbc.fragments.AmendParticipantFragment">
+    <TextView
+        android:id="@+id/amend_main_header"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="AMENDMENT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/amendParticipantHeader"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textStyle="bold"
+        android:text="Amend Participant"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/amend_main_header"
+        />
+    <LinearLayout
+        android:id="@+id/noOfSharesLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/amendParticipantHeader">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="Total no Of Shares :"
+             />
+        <TextView
+            android:id="@+id/no_of_shares"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_participant_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/plus_sign"
+        android:foregroundGravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/noOfSharesLayout" />
+
+
+    <FrameLayout
+        android:id="@+id/amendParticipantFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_participant_button">
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/amendParticipantFrameLayout">
+
+        <include layout="@layout/ra_footer_layout" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

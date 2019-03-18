@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mbcNumber">MBC Number</string>
+    <string name="raName">Register Agent Name</string>
+    <string name="raUser">RA User</string>
+    <string name="country">MBC Country of Operation</string>
+    <string name="businessPurpose">MBC Business Purpose</string>
+    <string name="doingBusinessAs">Doing business As</string>
+    <string name="dateOfIncorporation">Date of Incorporation</string>
+    <string name="principalFirstName">Principal First Name</string>
+    <string name="principalNationality">Principal Nationality</string>
+    <string name="mbcShares">MBC Shares</string>
+    <string name="mbcAct">I confirm that this MBC meets the requirements of the MBC Act 2017</string>
+
+</resources>

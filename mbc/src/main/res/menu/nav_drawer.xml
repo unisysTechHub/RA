@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/dashBoard" android:title="@string/DashBoard"> </item>
+    <item android:id="@+id/MBC_management"  app:actionLayout="@layout/ra_expand_action_view" android:title="@string/MBC_Management"/>
+    <group android:id="@+id/mbc_Management_submenu" android:title="@string/MBC_Management"
+          app:showAsAction="always" android:visible="false">
+        <item android:id="@+id/register_mbc" android:title="@string/Register_MBC" app:showAsAction="always"/>
+        <item android:id="@+id/amend_charter" android:title="@string/Amend_Charter"  app:showAsAction="always"/>
+        <item android:id="@+id/mbc_charter" android:title="@string/MBC_Charter" app:showAsAction="always"/>
+        <item android:id="@+id/file_annual_return" android:title="@string/File_Annual_Return" app:showAsAction="always"/>
+        <item android:id="@+id/extension_of_time" android:title="@string/Extension_Of_Time" app:showAsAction="always"/>
+    </group>
+
+    <item android:id="@+id/mbc_Disposition" android:title="@string/MBC_Disposition" app:actionLayout="@layout/ra_expand_action_view"/>
+    <group android:id="@+id/mbc_Disposition_submenu" android:visible="false" app:showAsAction="always">
+        <item android:id="@+id/transfer_of_shares" android:title="@string/Transfer_of_Shares" app:showAsAction="always"/>
+        <item android:id="@+id/dispute_mbc_strike_off" android:title="@string/Dispute_MBC_Strike_off" app:showAsAction="always"/>
+        <item android:id="@+id/restoration" android:title="@string/Restoration" app:showAsAction="always"/>
+        <item android:id="@+id/court_order_restoration" android:title="@string/Court_order_restoration" app:showAsAction="always"/>
+    </group>
+
+    <item android:id="@+id/mbc_transformation" android:title="@string/Transformation" app:actionLayout="@layout/ra_expand_action_view"/>
+
+    <group android:id="@+id/transformation_submenu" android:visible="false" app:showAsAction="always">
+    <item android:id="@+id/transfer_to_BVIMBC" android:title="@string/Transfer_to_BVIBC"  app:showAsAction="always"/>
+    </group>
+
+    <item android:id="@+id/mbc_administration" android:title="@string/MBC_Administration" app:actionLayout="@layout/ra_expand_action_view"/>
+    <group android:id="@+id/mbc_administration_submenu" android:visible="false" app:showAsAction="always">
+        <item android:id="@+id/termination_of_RA" android:title="@string/Termination_of_RA" app:showAsAction="always"/>
+    </group>
+
+    <item android:id="@+id/portfolio_management" android:title="@string/MBC_Portfolio_Management" app:actionLayout="@layout/ra_expand_action_view"/>
+    <group android:id="@+id/portfolio_management_submenu" android:visible="false" app:showAsAction="always">
+        <item android:id="@+id/search_micro_business_company" android:title="@string/search_micro_business_company" app:showAsAction="always"/>
+        <item android:id="@+id/portfolio_transaction_summary" android:title="@string/portfolio_transaction_summary" app:showAsAction="always"/>
+    </group>
+
+    <item android:id="@+id/quick_links" android:title="@string/Quick_Links" app:actionLayout="@layout/ra_expand_action_view"/>
+    <group android:id="@+id/quick_links_sub_menu" android:visible="false" app:showAsAction="always">
+     <item android:id="@+id/public_serach" android:title="@string/public_search" app:showAsAction="always"/>
+    </group>
+
+    <item android:id="@+id/KYC" android:title="@string/KYC" app:showAsAction="always"/>
+    <item android:id="@+id/issueManagement" android:title="@string/Issue_Management" app:showAsAction="always"/>
+    <item android:id="@+id/user_mbc_list" android:title="My MBCs" app:showAsAction="always"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</menu>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="http">http</string>
+ <string name="ip_address">182.74.133.91</string>
+ <!--<string name="ip_address">10.0.2.2</string>-->
+ <string name="bb_ip_address">182.74.133.92</string>-
+ <string name="bbVersion">/BB-2.0.5</string>
+ <string name="version">/RAPORTAL-1.0</string>
+<string name="port">8080</string>
+ <string name="uploadKYC">/raportal/api/user/userkyc</string>
+<string name="signUp">/raportal/api/user/usersignup"</string>
+<string name="securityQuestions">/raportal/api/core/listofquestiondesc</string>
+<string name="kycDocumentTypes">/raportal/api/user/documentTypes</string>
+<string name="signIn">/raportal/api/user/userlogin</string>
+<string name="useKycDocsDetails">/raportal/api/user/get/kycdetails?</string>
+ <string name="countries">/blockbuster/api/core/get/countries</string>
+ <string name="nationalities">/blockbuster/api/core/get/nationalities</string>
+ <string name="businessPurposeList">/blockbuster/api/core/get/businesspurposes</string>
+ <string name="participantRights">/blockbuster/api/incorporation/get/participantrights</string>
+ <string name="paymentSummary">/raportal/api/core/get/paymentsummary?paymentCode=</string>
+ <string name="registerMBC">/raportal/api/incorporation/add</string>
+ <string name="mbcData">/raportal/api/incorporation/get?mbcNumber=</string>
+ <string name="amend">/raportal/api/charter/ammend</string>
+
+ <string name="mbcaLegislativeRefUrl">http://182.74.133.91:8080/ra_portal/#/mbca-legislative</string>
+</resources>

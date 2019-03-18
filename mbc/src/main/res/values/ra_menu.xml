@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nav_drawer_menu">
+        <item name="DashBoard">
+               Dashboard
+        </item>
+        <item>
+           MBC Management
+        </item>
+        <item>
+            MBC Disposition
+        </item>
+        <item>
+            Transformation
+        </item>
+        <item>
+            MBC Administration
+        </item>
+        <item>
+            Account Management
+        </item>
+        <item>
+            MBC Portfolio Management
+        </item>
+
+        <item>
+            Quick_Links
+        </item>
+        <item>
+        KYC
+        </item>
+        <item>
+        Issue Management
+        </item>
+    </string-array>
+
+    <string-array name="MBC_Disposition">
+        <item>Transfer of Shares</item>
+        <item>Dispute MBC Strike off</item>
+        <item>Restoration</item>
+        <item>Court Order Restoration</item>
+    </string-array>
+
+    <string-array name="MBC_Management">
+        <item>Register MBC</item>
+        <item>Amend Charter</item>
+        <item>MBC Charter</item>
+        <item>File Annual Return</item>
+        <item>Extension Of Time</item>
+    </string-array>
+
+    <string-array name="Transformation">
+        <item>Transfer to BVIBC</item>
+    </string-array>
+
+    <string-array name="Account_Management">
+        <item>Account Deposit</item>
+        <item>Annual Fee Payment</item>
+        <item>Fees And Penalties</item>
+    </string-array>
+
+    <string-array name="MBC_Administration">
+        <item>Termination of RA</item>
+    </string-array>
+
+    <string-array name="Portfolio_Management">
+        <item>Search Micro Business Company</item>
+        <item>Portfolio Transaction Summary</item>
+    </string-array>
+
+    <string-array name="Quick_Links">
+        <item>Public Search</item>
+    </string-array>
+
+
+</resources>

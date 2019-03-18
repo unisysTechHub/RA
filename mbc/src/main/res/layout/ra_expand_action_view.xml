@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="15dp"
+    android:layout_width="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    >
+<ImageView
+    android:id="@+id/expand_collapse_icon"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tag="expand"
+    android:layout_width="15dp"
+    android:layout_height="15dp"
+    android:layout_gravity="end"
+    android:src="@drawable/plus_sign">
+</ImageView>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/navigation_background"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/mbc_user_image"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:src="@drawable/ic_launcher_background"/>
+    <TextView
+        android:id="@+id/mbc_user_name"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:text="Shravan"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/my_mbcs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+    <View android:layout_width="match_parent"
+         android:layout_height="2dp"
+
+                />
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">BVI RA</string>
+    <string name="DashBoard">
+        Dashboard
+    </string>
+    <string name="MBC_Management">
+         MBC Management
+    </string>
+    <string name="MBC_Disposition">
+        MBC Disposition
+    </string>
+    <string name="Transformation">
+        Transformation
+    </string>
+    <string name="MBC_Administration">
+        MBC Administration
+    </string>
+    <string name="Account_Management">
+        Account Management
+    </string>
+    <string name="MBC_Portfolio_Management">
+        MBC Portfolio Management
+    </string>
+    <string name="Quick_Links">
+        Quick Links
+    </string>
+    <string name="KYC">
+        KYC
+    </string>
+    <string name="Issue_Management">
+        Issue Management
+    </string>
+    <!-- MBC MANAGEMENT SUB MENU -->
+    <string name="Register_MBC"> \t \t \t \t Register MBC</string>
+    <string name="Amend_Charter"> \t \t \t \t Amend Charter</string>
+    <string name="MBC_Charter"> \t \t \t \t MBC Charter</string>
+    <string name="File_Annual_Return"> \t \t \t \t File Annual Return</string>
+    <string name="Extension_Of_Time"> \t \t \t \t Extension Of Time</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- MBC DISPosition -->
+    <string name="Transfer_of_Shares"> \t \t \t \t Transfer of Shares</string>
+    <string name="Dispute_MBC_Strike_off"> \t \t \t \t Dispute MBC Strike off</string>
+    <string name="Restoration"> \t \t \t \t Restoration</string>
+    <string name="Court_order_restoration"> \t \t \t \t Court Order Restoration</string>
+    <!---  Transformation -->
+    <string name="Transfer_to_BVIBC">\t \t \t \t Transfer to BVIBC</string>
+
+    <!-- MBC Administration -->
+    <string name="Termination_of_RA">\t \t \t \t Termination of RA</string>
+
+    <!-- Portfolio Management -->
+    <string name="search_micro_business_company"> \t \t \t Search Micro Business Company</string>
+    <string name="portfolio_transaction_summary"> \t \t \t  Portfolio Transaction Summary</string>
+
+    <!--   Quick links           -->
+    <string name="public_search">\t \t \t \t Public Search</string>
+
+</resources>
